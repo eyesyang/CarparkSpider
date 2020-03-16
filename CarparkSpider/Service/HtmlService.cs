@@ -9,7 +9,7 @@ namespace CarparkSpider.Service
 {
     public class HtmlService
     {
-        public static string WebReq(string url, string queryStr, string method)
+        public static string Run(string url, string queryStr, string method)
         {
             try
             {
